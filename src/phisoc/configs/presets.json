@@ -1,0 +1,29 @@
+{
+  "teste": {
+    "sizes": [400, 400],
+    "EPSILON_CROSS": 0.1
+  },
+
+  "fase6": {
+  "sizes": [400, 400],
+  "cross_edges_initial": 10,
+
+  "EPSILON_CROSS": 0.05,
+
+  "dissipative": false,
+  "frustration": true,
+  "adaptive_lambda": false,
+
+  "threshold_base": 1.0,
+
+  "tear_prob": 0.03,
+  "add_edge_prob": 0.001,
+  "competition_strength": 0.02,
+  "inversion_prob": 0.3,
+
+  "max_avalanche_size": 50,
+
+  "T_equil": 5000,
+  "T_sample": 30000
+}
+}
